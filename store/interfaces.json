@@ -1,0 +1,8 @@
+{
+  "store-selector": {
+    "component": "StoreSelector",
+    "content": {
+			"$ref": "app:walmartcr.store-selector#/definitions/StoreSelector"
+		}
+  }
+}

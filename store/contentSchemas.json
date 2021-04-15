@@ -1,0 +1,74 @@
+{
+	"definitions": {
+		"StoreSelector": {
+			"title": "Store Selector",
+			"type": "object",
+			"properties": {
+				"country": {
+					"title": "Country",
+					"type": "string",
+					"default": "CRI"
+				},
+				"googleMapskey": {
+					"title": "GoogleMaps Key",
+					"type": "string",
+					"default": "YOUR_KEY"
+				},
+				"storesArr": {
+					"title": "Stores",
+					"type": "array",
+					"items": {
+						"properties": {
+							"name": {
+								"title": "Nombre de la Tienda",
+								"type": "string",
+								"default": "San Sebastian"
+							},
+							"provincia": {
+								"title": "Provincia",
+								"type": "string",
+								"default": "San José"
+							},
+							"canton": {
+								"title": "Cantón",
+								"type": "string",
+								"default": "San José"
+							},
+							"distrito": {
+								"title": "Distrito",
+								"type": "string",
+								"default": "San Sebastián"
+							},
+							"address": {
+								"title": "Dirección",
+								"type": "string",
+								"default": "Frente A La Rotonda De San Sebastián, Carretera De Circunvalación"
+							},
+							"location": {
+								"title": "Coordenadas",
+								"type": "object",
+								"properties": {
+									"lng": {
+										"title": "Longitud",
+										"type": "number",
+										"default": -84.0848
+									},
+									"lat": {
+										"title": "Latitud",
+										"type": "number",
+										"default": 9.90829999
+									}
+								}
+							},
+							"postalCode": {
+								"title": "PostalCode Id",
+								"type": "string",
+								"default": "10111"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

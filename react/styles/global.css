@@ -1,0 +1,83 @@
+.walmartcr-store-selector-0-x-button .bg-action-primary {
+	background-color: #1a75cf;
+	border-color: #1a75cf;
+	width: 100%;
+	text-transform: none;
+}
+
+.walmartcr-store-selector-0-x-button .bg-disabled {
+	width: 100%;
+	text-transform: none;
+}
+
+.vtex-modal__modal {
+	max-width: 500px;
+}
+
+.walmartcr-store-selector-0-x-openButton .vtex-button {
+	text-transform: none;
+	height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.walmartcr-store-selector-0-x-openButton .vtex-button {
+		width: 100%;
+	}
+	.walmartcr-store-selector-0-x-openButton .vtex-button__label {
+		justify-content: end;
+    padding-left: 20px;
+	}
+}
+
+.vtex-radioGroup__radioLabel {
+	height: 72px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 6px;
+	border: solid 1px #e3e4e6 !important;
+	border-radius: 0.5rem !important;
+	background: linear-gradient(to right, #e3e4e6 6px, white 6px);
+}
+
+.vtex-radio__fakeRadio {
+	top: 20px;
+}
+
+.vtex-radio__fakeRadioInner {
+	background-color: #1a75cf;
+}
+
+.c-gray {
+	color: #525252;
+}
+
+.store-title {
+	font-weight: bold;
+	color: #1a75cf;
+}
+
+.tiendas-cercanas {
+	margin-bottom: 12px;
+	color: #525252;
+}
+
+.tiendas {
+	max-height: 400px;
+	width: 100%;
+	overflow: auto;
+}
+
+.elipsis {
+	width: 350px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.map {
+	margin-top: 12px;
+}
+
+.walmartcr-store-selector-0-x-openButton {
+    padding-right: 33rem;
+}
